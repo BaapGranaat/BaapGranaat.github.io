@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main div h1
+{
+    text-align: center;
+}
+
+#midPage
+{
+    height: 500px;
+    width: 550px;
+    margin-left: 5vw;
+    border: 2px solid black;
+}
+
+#text
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#allInformation
+{
+    display: flex;
+}
+
+#rules
+{
+    height: 200px;
+    width: 25%;
+    background-color: antiquewhite;
+    margin: 0px 55px;
+    border-radius: 10% 20% / 10px 30px;
+}
+
+#allInformation #rules h3, #allInformation #rules p, #allInformation #rules ul
+{
+    padding: 0px 20px;
+}
+
+#allInformation #rules h3
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#startLetter
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 1276px) {
+    #rules
+    {
+        width: 40%;
+    }
+  }
+
+@media (max-width: 912px)
+{
+    #allInformation
+    {
+        display: block;
+    }
+
+    #rules
+    {
+        margin-left: 30%;
+    }
+
+    #midPage
+    {
+        margin-left: 20%;
+        margin-top: 50px;
+        min-width: 200px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 716px)
+{
+    #rules
+    {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #midPage
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,106 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main #welcome h1
+{
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+main #welcome h2
+{
+    text-align: center;
+    margin: 0px;
+}
+
+#games
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#games .card
+{
+    border-radius: 20px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 100px;
+    height: 150px;
+    background-color: #ECEEEC;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#games div img
+{
+    height: 150px;
+    border-radius: 20px 0px  0px 20px;
+}
+
+#games div
+{
+    display: flex;
+}
+
+#games div div
+{
+    display: block;
+    margin-left: 20px;
+}
+
+#games div div p
+{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+#games div div h3
+{
+    margin-top: 0px;
+}
+/* #games .card div a
+{
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+} */
+
+#klapJonko
+{
+    background-color: grey;
+    color: black ;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px ;
+}
+
+@media (max-width: 1028px)
+{
+    #games
+    {
+        display: block;
+    }
+
+    .card
+    {
+        width: 70vw !important;
+        margin-left: 15vw !important;
+    }
+}
+
+@media (max-width: 586px)
+{
+    #games .card img
+    {
+        display: none;
+    }
+}

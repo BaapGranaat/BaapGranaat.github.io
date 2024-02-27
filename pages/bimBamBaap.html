@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="../styles/styleBimBamBaap.css">
+    <link rel="stylesheet" href="../styles/styleHeaderFooter.css">
+    <script src="../scripts/script.js"></script>
+</head>
+<body onload="alphabetLetter()">
+    <header>
+        
+        <!-- <nav>
+            <a href="../index.html">Mickey Mou$e crackhou$e</a>
+            <a href="bimBamBaap.html">Bim Bam Baap</a>
+             <a href="#">Lorem</a>
+            <a href="#">Lorem</a> 
+        </nav> -->
+        <nav>
+            <a id="firstA" href="../index.html">Baap Granaat</a>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Games</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="bimBamBaap.html">Bim Bam Baap</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Bim Bam Baap</h1>
+        </div>
+        <div id="allInformation">
+            <div id="midPage" onclick="newLine(), removeAlphabetLetter()">
+                <p id="startLetter"></p>
+                <p id="text"></p>
+            </div>
+            <div id="rules">
+                <h3>Regels</h3>
+                <!-- <p>Je krijgt een letter, je klikt in het vierkant en je krijgt een thema. Je verzint dan een woord in het thema waarvan de eerste letter de gekregen letter moet zijn. Als je die hebt gaat hij naar de volgende en dan moet de volgende met de laatste letter van jou woord een ander woord verzinnen in een nieuw thema die je krijgt door te klikken. Ook zitten er regels aan hoeveel je er mag per woord kijk hieronder.</p> -->
+                <ul>
+                    <li>Normaal antwoord = 1 Hijs</li>
+                    <li>Begin en eind letter hetzelfde = 2 Hijzen</li>
+                    <li>Woord achterstevoren hetzelfde = 3 Hijzen</li>
+                    <li>Woord omgedraaid hetzelfde = 4 Hijzen</li>
+                </ul>
+            </div>
+            <div id="lastLineBox">
+                <p id="lastLine"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
