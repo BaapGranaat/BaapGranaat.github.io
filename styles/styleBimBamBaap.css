@@ -14,6 +14,8 @@ main div h1
 {
     height: 500px;
     width: 550px;
+    padding: 20px;
+    overflow: none;
     margin-left: 5vw;
     border: 2px solid black;
 }
@@ -25,6 +27,7 @@ main div h1
     justify-content: center;
     align-items: center;
     color: black;
+    text-align: center;
 }
 
 #allInformation
@@ -96,7 +99,7 @@ main div h1
 
     #midPage
     {
-        width: 90%;
+        width: 80%;
         margin-left: 5%;
     }
 }
