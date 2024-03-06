@@ -24,6 +24,13 @@ main #welcome h2
     grid-template-columns: 1fr 1fr;
 }
 
+i
+{
+    color: #3FA458;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
 #games .card
 {
     border-radius: 20px;
